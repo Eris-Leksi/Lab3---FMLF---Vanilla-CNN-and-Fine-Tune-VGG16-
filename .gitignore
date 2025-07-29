@@ -1,3 +1,44 @@
-/data
+# Ignore dataset and raw image data
+/data/
+*.jpg
+*.jpeg
+*.png
+
+# Ignore trained model files
 /cnn_best_model.h5
 /vgg16_best_model.h5
+*.h5
+*.hdf5
+
+# Ignore notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore generated plots or saved figures (if any)
+*.svg
+*.pdf
+*.eps
+
+# Ignore Jupyter Notebook temporary files
+*.nbconvert.ipynb
+*.bak
+*.tmp
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+
+# Logs and TensorBoard files
+logs/
+*.log
+events.out.tfevents.*
+
+# Ignore virtual environments
+env/
+venv/
+.venv/
+
+# Ignore editor/IDE-specific files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
