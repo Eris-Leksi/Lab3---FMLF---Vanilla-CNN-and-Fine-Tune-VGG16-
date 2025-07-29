@@ -1,0 +1,5 @@
+outs:
+- md5: 2dee5c70b342eda1aa70136d9ee2193d
+  size: 84109608
+  hash: md5
+  path: vgg16_best_model.h5
